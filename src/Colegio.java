@@ -371,21 +371,20 @@ public class Colegio
 		System.out.println(p1.anyosJubilacion());
 		p1.cambioIdiomas();
 		System.out.println(p1.toString());
-		
-		
+
 		System.out.println("------------------------------------------------------------------------");
 		/*PROFESOR*/
 		/*BLOQUE PREGUNTAS CONSTRUCTOR Profesor*/
 		/*titulacion, asignatura 1 2 tutor años de experiencia*/
-		System.out.println("Digame su titulación:");
+		System.out.println("Escriba su titulación:");
 		titulacion= ent.nextLine();
-		System.out.println("Digame su asignatura 1:");
+		System.out.println("Escriba su asignatura 1:");
 		asignatura1= ent.nextLine();
-		System.out.println("Digame su asignatura 2:");
+		System.out.println("Escriba su asignatura 2:");
 		asignatura2= ent.nextLine();
-		System.out.println("Digame tutor:");
+		System.out.println("Escriba tutor:");
 		tutor= ent.nextLine();
-		
+
 		anyosExperiencia=preguntaAnyosExperiencia();
 		
 		Profesor pR1 = new Profesor(preguntaDni(), nombre, apellido, telefono, preguntaEmail(),preguntaSexo(), preguntaEdad(), preguntaSalario(),titulacion, asignatura2, asignatura2, 
