@@ -4,7 +4,7 @@ public class Colegio
 {
 	/*BLOQUE FUNCIONES*/
 	/*VALIDACION ATRIBUTOS DE CONSTRUCTOR PROFESOR*/
-	
+	/************************************************************/
 	/*
 	 *    
 	 *    
